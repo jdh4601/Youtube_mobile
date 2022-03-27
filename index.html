@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+    <title>Youtube Mobile</title>
+    <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&display=swap" 
+    rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <script 
+    src="https://kit.fontawesome.com/b5412c1e97.js" crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <i class="fa-brands fa-youtube"></i>
+            <span class="title">Youtube</span>
+        </div>
+        <div class="icon">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-solid fa-ellipsis"></i>
+        </div>
+    </header>
+    <!-- Video Player -->
+    <section class="player">
+        <video autoplay width="320" height="240" controls>
+            <source src="./video.mp4" type="video/mp4">
+    </section>
+    <nav class="infoUpNext">
+    <!-- Video info -->
+    <section class="info">
+        <div class="metadata">
+            <ul class="hashtags">
+                <li>#apple</li>
+                <li>#macOS</li>
+                <li>#m1 macbook</li>
+            </ul>
+            <div class="titleAndButton">
+                <span class="title">
+                    맥북에서 동영상을 녹화하는 방법
+                </span>
+                <button class="moreButton">
+                    <i class="fas fa-caret-down"></i>
+                </button>
+            </div>
+                <span class="views"> 1M views 1 month ago </span>
+            </div>
+        </div>
+        <!-- Action -->
+        <ul class="actions">
+            <li>
+                <button><i class="fa-solid fa-thumbs-up"></i></button>
+            </li>
+            <li>
+                <button><i class="fa-solid fa-thumbs-down"></i></button>
+            </li>
+            <li>
+                <button><i class="fa-solid fa-share"></i></button>
+            </li>
+            <li>
+                <button><i class="fa-solid fa-plus"></i></button>
+            </li>
+            <li>
+                <button><i class="fa-solid fa-flag"></i></button>
+            </li>
+        </ul>
+        <!-- channel  -->
+        <div class="channel">
+            <div class="metadata">
+                <img src="./image/1.jpeg" alt="">
+                <div class="info">
+                    <span class="name">dev_Jayden</span>
+                    <span class="subscribers">1M subscribers</span>
+                </div>
+                <button class="subscribe">subscribe</button>
+            </div>
+        </div>
+    </section>
+    <!-- Video upNext -->
+    <section class="upNext">
+        <ul>
+            <li class="item">
+                <div class="img">
+                <img src="./image/2.jpeg">
+                </div>
+                <div class="info">
+                    <span class="title">code your life</span>
+                    <span class="name">dev_Jayden</span>
+                    <span class="view">1M views</span>
+                </div>
+                <button class="moreButton"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+            </li>
+            <li class="item">
+                <div class="img">
+                <img src="./image/3.jpeg">
+                </div>
+                <div class="info">
+                    <span class="title">New Yourk City</span>
+                    <span class="name">dev_Jayden</span>
+                    <span class="view">1.5M views</span>
+                </div>
+                <button class="moreButton"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+            </li>
+            <li class="item">
+                <div class="img">
+                <img src="./image/4.jpeg">
+                </div>
+                <div class="info">
+                    <span class="title">Sony sound quility test</span>
+                    <span class="name">dev_Jayden</span>
+                    <span class="view">760k views</span>
+                </div>
+                <button class="moreButton"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+            </li>
+        </ul>
+    </section>
+    </nav>
+    <script src="./index.js"></script>
+  </body>
+</html>
